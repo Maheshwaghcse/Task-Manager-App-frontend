@@ -1,0 +1,17 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A full-stack, responsive Task Manager app with user authentication and a Kanban-style dashboard to track tasks across three stages: Todo, In Progress, and Done.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"node --watch backend/server.js\",",
+    "install-all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.0"
+  }
+}
