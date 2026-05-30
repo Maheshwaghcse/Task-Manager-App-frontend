@@ -4,7 +4,7 @@
   "description": "A full-stack, responsive Task Manager app with user authentication and a Kanban-style dashboard to track tasks across three stages: Todo, In Progress, and Done.",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix frontend\" \"node --watch backend/server.js\",",
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"node --watch backend/server.js\"",
     "install-all": "npm install && npm install --prefix frontend && npm install --prefix backend"
   },
   "keywords": [],

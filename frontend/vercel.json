@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://task-manager-backend-two-alpha.vercel.app/api/$1"
+      "destination": "https://task-manager-backend-git-main-mahesh-wagh-s-projects.vercel.app/api/$1"
     },
     {
       "source": "/(.*)",
